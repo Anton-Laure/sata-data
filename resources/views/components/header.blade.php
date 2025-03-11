@@ -77,9 +77,14 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="/kategori" class="hover:link md:px-4 block">
+                                    <span>Kategori</span>
+                                </a>
+                            </li>
+                            <li>
                                 <div class="relative z-40">
                                     <a class="dropdown-toggle hover:link md:px-4 flex items-center">
-                                        <span class="pointer-events-none select-none">Kota/Kab</span>
+                                        <span class="pointer-events-none select-none">Katalog</span>
                                         <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg"
                                             fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                                             class="w-6 h-6">
@@ -89,10 +94,10 @@
                                     </a>
                                     <div
                                         class="dropdown-menu absolute hidden shadow-md bg-gray-50/85 dark:bg-gray-950/85 text-body rounded-b-lg pb-2 w-48">
-                                        <a href="#" class="block px-6 py-2 hover:link">Kota Kupang</a>
-                                        <a href="#" class="block px-6 py-2 hover:link">Kab. Alor</a>
-                                        <a href="#" class="block px-6 py-2 hover:link">Kab. Belu</a>
-                                        <a href="#" class="block px-6 py-2 hover:link">Kab. Ende</a>
+                                        <a href="#" class="block px-6 py-2 hover:link">Daftar Data</a>
+                                        <a href="#" class="block px-6 py-2 hover:link">Metadata</a>
+                                        <a href="#" class="block px-6 py-2 hover:link">Produk Hukum</a>
+                                        <a href="#" class="block px-6 py-2 hover:link">SK Tim</a>
 
                                     </div>
                                 </div>

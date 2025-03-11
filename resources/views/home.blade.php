@@ -349,5 +349,6 @@
             </div>
         </section>
         <x-topics />
+        <x-shortartikel />
     </main>
 </x-layout>
