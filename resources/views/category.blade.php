@@ -4,62 +4,48 @@
         <div class="pt-36">
             <div class="mx-auto px-6 max-w-7xl">
                 <div class="text-center">
-                    <h4 class="text-2xl text-gray-950 dark:text-white font-semibold">Pilih bagian di bawah untuk lihat selengkapnya </h4>
+                    <h4 class="text-2xl text-gray-950 dark:text-white font-semibold">Pilih bagian di bawah untuk lihat
+                        selengkapnya </h4>
                     <p class="mt-6 text-gray-700 dark:text-gray-300"></p>
                 </div>
                 <div class="grid grid-cols-1 gap-4  md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 justify-center">
-                    <div class="field w-100">
-                        <label class="text-title" for="options">Pilih Kab/Kota</label>
-                        <div class="relative">
-                            <svg class="absolute right-2.5 inset-y-0 my-auto text-body opacity-75 pointer-events-none"
-                                xmlns="http://www.w3.org/2000/svg" width="0.75rem" height="0.75rem" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m7 15 5 5 5-5" />
-                                <path d="m7 9 5-5 5 5" />
-                            </svg>
-                            <select id="" class="input variant-mixed border-primary-400 sz-lg appearance-none"
-                                name="kab">
 
-                            </select>
-                        </div>
-                    </div>
-                    <div class="field w-100">
-                        <label class="text-title" for="options">Pilih Kecematan</label>
-                        <div class="relative">
-                            <svg class="absolute right-2.5 inset-y-0 my-auto text-body opacity-75 pointer-events-none"
-                                xmlns="http://www.w3.org/2000/svg" width="0.75rem" height="0.75rem" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m7 15 5 5 5-5" />
-                                <path d="m7 9 5-5 5 5" />
-                            </svg>
-                            <select id="" class="text-x input variant-mixed sz-lg appearance-none"
-                                name="kec">
-                                <option value="1">Option 1 </option>
-                                <option value="2">Option 2 </option>
-                                <option value="3">Option 3 </option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="field w-100">
-                        <label class="text-title" for="options">Pilih Desa</label>
-                        <div class="relative">
-                            <svg class="absolute right-2.5 inset-y-0 my-auto text-body opacity-75 pointer-events-none"
-                                xmlns="http://www.w3.org/2000/svg" width="0.75rem" height="0.75rem" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m7 15 5 5 5-5" />
-                                <path d="m7 9 5-5 5 5" />
-                            </svg>
-                            <select id="" class="text-x input variant-mixed sz-lg appearance-none"
-                                name="desa">
-                                <option value="1">Option 1 </option>
-                                <option value="2">Option 2 </option>
-                                <option value="3">Option 3 </option>
-                            </select>
-                        </div>
-                    </div>
+                    <x-selectbox id="1" lable="Pilih Kabupaten">
+
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            1</a>
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            2</a>
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            3</a>
+                    </x-selectbox>
+                    <x-selectbox id="2" lable="Pilih Kecamatan">
+
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            1</a>
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            2</a>
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            3</a>
+                    </x-selectbox>
+                    <x-selectbox id="3" lable="Pilih Desa">
+
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            1</a>
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            2</a>
+                        <a href="#"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
+                            3</a>
+                    </x-selectbox>
                 </div>
                 <div class="mt-12 relative w-full h-fit sm:mx-auto sm:px-0 -mx-6 px-6 ">
                     <div>
