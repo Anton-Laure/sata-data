@@ -10,42 +10,8 @@
                 </div>
                 <div class="grid grid-cols-1 gap-4  md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 justify-center">
 
-                    <x-selectbox id="1" lable="Pilih Kabupaten">
-
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            1</a>
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            2</a>
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            3</a>
-                    </x-selectbox>
-                    <x-selectbox id="2" lable="Pilih Kecamatan">
-
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            1</a>
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            2</a>
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            3</a>
-                    </x-selectbox>
-                    <x-selectbox id="3" lable="Pilih Desa">
-
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            1</a>
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            2</a>
-                        <a href="#"
-                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Option
-                            3</a>
-                    </x-selectbox>
+                    <x-select2 id="kab" lable="Kabupaten"></x-select2>
+                    <x-select2 id="kec" lable="Kecamatan"></x-select2>
                 </div>
                 <div class="mt-12 relative w-full h-fit sm:mx-auto sm:px-0 -mx-6 px-6 ">
                     <div>
@@ -169,40 +135,85 @@
         </div>
     </section>
     <script>
-        const kab = document.querySelector("select[name='kab']");
-        const kec = document.querySelector("select[name='kec']");
-        const desa = document.querySelector("select[name='desa]");
-        let option = ""
-        async function getkab() {
-            const response = await fetch("https://open-api.my.id/api/wilayah/regencies/53", {
-                    method: "GET",
-                    // ...
-                }).then(response => response.json())
-                .then(data => {
-                    data.forEach(data => {
-                        option += `<option value="${data.id}">${data.name} </option>`
+        let optionkec = []
 
-                    });
-                });
-            kab.innerHTML = option
+        function loadOptionskab() {
+            const xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                    if (this.status == 200) {
+                        const options = JSON.parse(this.responseText);
+                        populateOptions(options, 'kab');
+                        console.log("ok")
+                        document.querySelectorAll('[data-hs-select].--prevent-on-load-init#kab').forEach((el) =>
+                            new HSSelect(el));
+                        document.querySelectorAll('[data-hs-select].--prevent-on-load-init#kec').forEach((el) =>
+                            new HSSelect(el));
+                    } else {
+                        console.error("Failed to load options:", this.status, this.statusText);
+                    }
+                }
+            };
+
+            xhr.open("GET", "https://open-api.my.id/api/wilayah/regencies/53", true);
+            xhr.send();
+
         }
-        getkab()
-        kab.addEventListener('input', () => {
-            const value = kab.value;
-            console.log(value)
-            async function getkec() {
-                const response = await fetch("https://open-api.my.id/api/wilayah/regencies/53", {
-                        method: "GET",
-                        // ...
-                    }).then(response => response.json())
-                    .then(data => {
-                        data.forEach(data => {
-                            option += `<option value="${data.id}">${data.name} </option>`
 
+
+        function populateOptions(options, id) {
+            const selectElement = document.getElementById(id);
+            let ops = ""
+            selectElement.innerHTML = "<option value=''>Pilih Kabupaten</option>";
+
+            options.forEach(function(option) {
+                const optionElement = document.createElement("option");
+                optionElement.value = option.id;
+                optionElement.textContent = option.name;
+                // console.log(optionElement);
+                selectElement.appendChild(optionElement);
+                // ops += `<option value="${option.id}">${option.name}</option>`
+
+
+            });
+            // selectElement.innerHTML = ops
+
+        }
+        window.addEventListener("load", (event) => {
+            loadOptionskab()
+        });
+        const selectkab = document.getElementById('kab');
+        selectkab.addEventListener("change", () => {
+            const id = selectkab.value
+            const xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                    if (this.status == 200) {
+                        const options = JSON.parse(this.responseText);
+                        const select = window.HSSelect.getInstance('#kec');
+                        select.removeOption(optionkec)
+                        options.forEach(function(option) {
+                            optionkec.push(option.id)
+                            select.addOption({
+                                title: option.name,
+                                val: option.id
+                            });
                         });
-                    });
-                kab.innerHTML = option
-            }
-        })
+
+
+                    } else {
+                        console.error("Failed to load options:", this.status, this.statusText);
+                    }
+                }
+            };
+
+            xhr.open("GET", "https://open-api.my.id/api/wilayah/districts/" + id, true);
+            xhr.send();
+        });
     </script>
+
+
+
 </x-layout>

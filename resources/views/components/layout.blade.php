@@ -20,6 +20,7 @@
     <x-footer></x-footer>
 
     @vite(['resources/js/main.js'])
+
 </body>
 
 </html>

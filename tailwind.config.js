@@ -8,6 +8,7 @@ export default {
         './resources/**/*.blade.php',
         './resources/**/*.js',
         './resources/**/*.vue',
+        'node_modules/preline/dist/*.js',
     ],
     darkMode: 'class',
     safelist: ["isToggled"],
@@ -25,5 +26,6 @@ export default {
         }
         
     },
-    plugins: [],
+    plugins: [
+    ],
 };

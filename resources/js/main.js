@@ -1,5 +1,6 @@
 import "../css/app.css";
 
+
 const mainHeader = document.querySelector("#header");
 const menuBtn = document.querySelector("#menu-btn");
 const nav= document.querySelector("#nav")
@@ -83,11 +84,9 @@ setCustomization(document)
         document.querySelectorAll(".dropdown-menu").forEach((menu) => {
           menu.classList.add("hidden")
         })
-        console.log('show')
         dropdownMenu.classList.remove("hidden")
       } else {
         dropdownMenu.classList.add("hidden")
-        console.log("show")
       }
     })
   })
@@ -98,9 +97,13 @@ setCustomization(document)
       document.querySelectorAll(".dropdown-menu").forEach((menu) => {
         if (!menu.contains(e.target)) {
           menu.classList.add("hidden")
-          console.log("hidden")
         }
       })
     }
   })
+
+
+
+  
+
   
