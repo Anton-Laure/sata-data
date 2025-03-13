@@ -33,9 +33,9 @@
                 </div>
             </div>
             <div class=" flex-row  items-center space-y-4 flex lg:w-1/6 md:w-2/6 w-2/7">
-                <img alt="skala logo" width="122" height="32" decoding="async" data-nimg="1" class="dark:brightness-200"
-                style="color:transparent" src="kemendagri.png">
-                <img alt="skala logo"width="122" height="32" decoding="async" data-nimg="1" class="dark:brightness-200"
+                <img alt="skala logo" width="132" height="48" decoding="async" data-nimg="1" class="dark:brightness-200"
+                style="color:transparent" src="sdpdn.png">
+                <img alt="skala logo"width="132" height="48" decoding="async" data-nimg="1" class="dark:brightness-200"
                     style="color:transparent" src="logoskala.png">
                 <img alt="ausralia logo" width="122" height="32" decoding="async" data-nimg="1" class="dark:invert" style="color:transparent"
                     src="logoaustralia.png">
