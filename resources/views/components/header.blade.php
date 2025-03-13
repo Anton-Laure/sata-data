@@ -72,7 +72,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="hover:link md:px-4 block">
+                                <a href="/infografik" class="hover:link md:px-4 block">
                                     <span>Infografik</span>
                                 </a>
                             </li>
