@@ -14,4 +14,7 @@ Route::get('/kabkota', function () {
 Route::get('/urusan', function () {
     return view('urusan');
 });
+Route::get('/organisasi', function () {
+    return view('organisasi');
+});
 // Route::get('/auth',[LoginController::class,'index'])->name('auth');

@@ -61,7 +61,7 @@
                             </li>
 
                             <li>
-                                <a href="#" class="hover:link md:px-4 block">
+                                <a href="/organisasi" class="hover:link md:px-4 block">
                                     <span>Organisasi</span>
                                 </a>
                             </li>
