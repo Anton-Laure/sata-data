@@ -5,7 +5,8 @@
             <div class="flex flex-wrap items-center justify-between py-2 sm:py-4">
                 <div class="w-full items-center flex justify-between lg:w-auto">
                     <a href="/" aria-label="logo" class="text-xl flex items-center font-bold">
-                        <img width="236" height="36" src="logo5.png" alt="xls" />
+                        <img width="236" height="36" src="{{ url('/') }}/logo5.png" alt="xls" />
+
                         {{-- <div class="ms-2">SASANDO</div> --}}
                     </a>
                     <div class="flex lg:hidden">

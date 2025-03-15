@@ -49,6 +49,7 @@
     <section>
         <div class="relative max-w-7xl mx-auto px-6 py-10 lg:py-10 -mt-8">
             <div class="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+
                 <div
                     class="group bg-white dark:bg-gray-900 overflow-hidden border rounded-lg  p-0 shadow-sm shadow-gray-950/5 hover:shadow-lg hover:-translate-y-2 transition-all duration-200">
                     <img class="h-70 w-full rounded-t-lg object-cover object-top  transition-all duration-500 hover:grayscale-0  "
@@ -58,10 +59,11 @@
                             <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungsn Hidup</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Musim hujan
-                            datang, waspada banjir menerjang</h3>
+                        <a href="/infografik/123"
+                            class="hover:text-primary-500 hover:underline text-title pt-3 text-base font-medium transition-all duration-500 ">Musim
+                            hujan datang, waspada banjir menerjang</a>
                         <div class="flex flex-col gap-1 mt-2">
-                            <a class="flex items-center gap-2 " href="#"><svg
+                            <span class="flex items-center gap-2 " href="#"><svg
                                     class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                     viewBox="0 0 24 24">
@@ -69,82 +71,7 @@
                                         d="M4.998 7.78C6.729 6.345 9.198 5 12 5c2.802 0 5.27 1.345 7.002 2.78a12.713 12.713 0 0 1 2.096 2.183c.253.344.465.682.618.997.14.286.284.658.284 1.04s-.145.754-.284 1.04a6.6 6.6 0 0 1-.618.997 12.712 12.712 0 0 1-2.096 2.183C17.271 17.655 14.802 19 12 19c-2.802 0-5.27-1.345-7.002-2.78a12.712 12.712 0 0 1-2.096-2.183 6.6 6.6 0 0 1-.618-.997C2.144 12.754 2 12.382 2 12s.145-.754.284-1.04c.153-.315.365-.653.618-.997A12.714 12.714 0 0 1 4.998 7.78ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
                                         clip-rule="evenodd" />
                                 </svg> 200000
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-                <div
-                    class="group bg-white dark:bg-gray-900 overflow-hidden border rounded-lg  p-0 shadow-sm shadow-gray-950/5 hover:shadow-lg hover:-translate-y-2 transition-all duration-200">
-                    <img class="h-70 w-full rounded-t-lg object-cover object-top  transition-all duration-500 hover:grayscale-0  "
-                        src="artikel/arti1.jpeg" alt="team member" width="826" height="1239" />
-                    <div class="px-5  pt-2 sm:pb-3 sm:pt-4">
-                        <div class="flex justify-between">
-                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungsn Hidup</h6>
-                            <span class="text-xs">05 Maret 2025</span>
-                        </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Musim hujan
-                            datang, waspada banjir menerjang</h3>
-                        <div class="flex flex-col gap-1 mt-2">
-                            <a class="flex items-center gap-2 " href="#"><svg
-                                    class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    viewBox="0 0 24 24">
-                                    <path fill-rule="evenodd"
-                                        d="M4.998 7.78C6.729 6.345 9.198 5 12 5c2.802 0 5.27 1.345 7.002 2.78a12.713 12.713 0 0 1 2.096 2.183c.253.344.465.682.618.997.14.286.284.658.284 1.04s-.145.754-.284 1.04a6.6 6.6 0 0 1-.618.997 12.712 12.712 0 0 1-2.096 2.183C17.271 17.655 14.802 19 12 19c-2.802 0-5.27-1.345-7.002-2.78a12.712 12.712 0 0 1-2.096-2.183 6.6 6.6 0 0 1-.618-.997C2.144 12.754 2 12.382 2 12s.145-.754.284-1.04c.153-.315.365-.653.618-.997A12.714 12.714 0 0 1 4.998 7.78ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-                                        clip-rule="evenodd" />
-                                </svg> 200000
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-                <div
-                    class="group bg-white dark:bg-gray-900 overflow-hidden border rounded-lg  p-0 shadow-sm shadow-gray-950/5 hover:shadow-lg hover:-translate-y-2 transition-all duration-200">
-                    <img class="h-70 w-full rounded-t-lg object-cover object-top  transition-all duration-500 hover:grayscale-0  "
-                        src="artikel/arti1.jpeg" alt="team member" width="826" height="1239" />
-                    <div class="px-5  pt-2 sm:pb-3 sm:pt-4">
-                        <div class="flex justify-between">
-                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungsn Hidup</h6>
-                            <span class="text-xs">05 Maret 2025</span>
-                        </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Musim hujan
-                            datang, waspada banjir menerjang</h3>
-                        <div class="flex flex-col gap-1 mt-2">
-                            <a class="flex items-center gap-2 " href="#"><svg
-                                    class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    fill="currentColor" viewBox="0 0 24 24">
-                                    <path fill-rule="evenodd"
-                                        d="M4.998 7.78C6.729 6.345 9.198 5 12 5c2.802 0 5.27 1.345 7.002 2.78a12.713 12.713 0 0 1 2.096 2.183c.253.344.465.682.618.997.14.286.284.658.284 1.04s-.145.754-.284 1.04a6.6 6.6 0 0 1-.618.997 12.712 12.712 0 0 1-2.096 2.183C17.271 17.655 14.802 19 12 19c-2.802 0-5.27-1.345-7.002-2.78a12.712 12.712 0 0 1-2.096-2.183 6.6 6.6 0 0 1-.618-.997C2.144 12.754 2 12.382 2 12s.145-.754.284-1.04c.153-.315.365-.653.618-.997A12.714 12.714 0 0 1 4.998 7.78ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-                                        clip-rule="evenodd" />
-                                </svg> 200000
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-                <div
-                    class="group bg-white dark:bg-gray-900 overflow-hidden border rounded-lg  p-0 shadow-sm shadow-gray-950/5 hover:shadow-lg hover:-translate-y-2 transition-all duration-200">
-                    <img class="h-70 w-full rounded-t-lg object-cover object-top  transition-all duration-500 hover:grayscale-0  "
-                        src="artikel/arti1.jpeg" alt="team member" width="826" height="1239" />
-                    <div class="px-5  pt-2 sm:pb-3 sm:pt-4">
-                        <div class="flex justify-between">
-                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungsn Hidup</h6>
-                            <span class="text-xs">05 Maret 2025</span>
-                        </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Musim hujan
-                            datang, waspada banjir menerjang</h3>
-                        <div class="flex flex-col gap-1 mt-2">
-                            <a class="flex items-center gap-2 " href="#"><svg
-                                    class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    fill="currentColor" viewBox="0 0 24 24">
-                                    <path fill-rule="evenodd"
-                                        d="M4.998 7.78C6.729 6.345 9.198 5 12 5c2.802 0 5.27 1.345 7.002 2.78a12.713 12.713 0 0 1 2.096 2.183c.253.344.465.682.618.997.14.286.284.658.284 1.04s-.145.754-.284 1.04a6.6 6.6 0 0 1-.618.997 12.712 12.712 0 0 1-2.096 2.183C17.271 17.655 14.802 19 12 19c-2.802 0-5.27-1.345-7.002-2.78a12.712 12.712 0 0 1-2.096-2.183 6.6 6.6 0 0 1-.618-.997C2.144 12.754 2 12.382 2 12s.145-.754.284-1.04c.153-.315.365-.653.618-.997A12.714 12.714 0 0 1 4.998 7.78ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-                                        clip-rule="evenodd" />
-                                </svg> 200000
-                            </a>
+                            </span>
                         </div>
 
                     </div>

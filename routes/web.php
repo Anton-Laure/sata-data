@@ -18,4 +18,8 @@ Route::get('/urusan', function () {
 Route::get('/infografik', function () {
     return view('infografik');
 });
+
+Route::get('/infografik/{slug}', function ($slug) {
+    return view('detailinfografik', ['slug' => $slug]);
+});
 // Route::get('/auth',[LoginController::class,'index'])->name('auth');
