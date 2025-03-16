@@ -21,6 +21,10 @@ Route::get('/organisasi', function () {
 
 Route::get('/infografik', function () {
     return view('infografik');
+});
+
+Route::get('/detail-artikel', function () {
+    return view('detailberita');
 
 });
 // Route::get('/auth',[LoginController::class,'index'])->name('auth');

@@ -126,7 +126,14 @@
                 </div>
             </div>
         </section>
-        <section>
+
+        
+
+        <x-insight />
+       
+
+        
+        <section class="mb-5">
             <div class="pt-36">
                 <div class="mx-auto px-6 max-w-6xl">
                     <div class="text-center">

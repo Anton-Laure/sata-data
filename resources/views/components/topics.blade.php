@@ -1,8 +1,8 @@
-<section class="pb-10">
+<section class="pb-10 bg-slate-50">
     <div class="pt-36">
         <div class="mx-auto px-6 max-w-7xl">
             <div class="text-center">
-                <h2 class="text-3xl text-gray-950 dark:text-white font-semibold">Topik Data </h2>
+                <h2 class="text-title text-3xl font-bold sm:text-4xl">Berita </h2>
                 {{-- <p class="mt-6 text-gray-700 dark:text-gray-300"> Jelajahi 10 kategori data Ntt</p> --}}
             </div>
             <div class="mt-12 relative w-full h-fit sm:mx-auto sm:px-0 -mx-6 px-6 ">

@@ -66,11 +66,7 @@
                                 </a>
                             </li>
 
-                            <li>
-                                <a href="#" class="hover:link md:px-4 block">
-                                    <span>Visualisasi</span>
-                                </a>
-                            </li>
+                          
                             <li>
                                 <a href="/infografik" class="hover:link md:px-4 block">
                                     <span>Infografik</span>
@@ -80,6 +76,27 @@
                                 <a href="/kategori" class="hover:link md:px-4 block">
                                     <span>Kategori</span>
                                 </a>
+                            </li>
+                            <li>
+                                <div class="relative z-40">
+                                    <a class="dropdown-toggle hover:link md:px-4 flex items-center">
+                                        <span class="pointer-events-none select-none">Informasi Publik</span>
+                                        <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </a>
+                                    <div
+                                        class="dropdown-menu absolute hidden shadow-md bg-gray-50/85 dark:bg-gray-950/85 text-body rounded-b-lg pb-2 w-48">
+                                        <a href="#" class="block px-6 py-2 hover:link">Profil Daerah</a>
+                                        <a href="#" class="block px-6 py-2 hover:link">Berita</a>
+                                        <a href="#" class="block px-6 py-2 hover:link">Pengumuman</a>
+                                        
+
+                                    </div>
+                                </div>
                             </li>
                             <li>
                                 <div class="relative z-40">

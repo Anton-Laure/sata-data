@@ -69,3 +69,37 @@
         </div>
     </div>
 </footer>
+
+
+
+<script>
+    $(document).ready(function() {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        stagePadding: 50,
+        margin: 10,
+        autoplay:true,
+        autoplayTimeout:150000,
+        autoplayHoverPause:true,
+        nav: true,
+        dots: false,
+        // prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-caret-left" aria-hidden="true"></i></button>',
+        // nextArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-caret-right" aria-hidden="true"></i></button>',
+        // navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 4
+          }
+        }
+      });
+    //   $( ".owl-prev").html('<button class="slide-arrow prev-arrow"><i class="fa fa-caret-left" aria-hidden="true"></i></button');
+    // $( ".owl-next").html('<button class="slide-arrow next-arrow"><i class="fa fa-caret-right" aria-hidden="true"></i></button>');
+    })
+  </script>

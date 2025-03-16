@@ -1,5 +1,5 @@
 <x-layout>
-    <main class="overflow-hidden">
+    <main class="overflow-hidden mb-10">
         <section class="overflow-hidden mt-10">
           
             <div class="relative max-w-7xl mx-auto px-6 py-10 lg:py-10">
@@ -50,8 +50,8 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="pt-0 mb-6">
+        <section class="mb-10">
+            <div class="pt-0 mb-10">
                 
                 <div class="mx-auto border-t-4 px-6 max-w-6xl bg-gray-50 pb-7">
                     <span class="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-gray-950">Pilih Kategori</span>

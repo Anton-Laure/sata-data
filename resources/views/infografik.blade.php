@@ -51,11 +51,11 @@
             <div class="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
                 <div
                     class="group bg-white dark:bg-gray-900 overflow-hidden border rounded-lg  p-0 shadow-sm shadow-gray-950/5 hover:shadow-lg hover:-translate-y-2 transition-all duration-200">
-                    <img class="h-70 w-full rounded-t-lg object-cover object-top  transition-all duration-500 hover:grayscale-0  "
-                        src="artikel/arti1.jpeg" alt="team member" width="826" height="1239" />
+                    <img class="h-80 w-full rounded-t-lg   transition-all duration-500 hover:grayscale-0  "
+                        src="infografik.jpeg" alt="team member" width="126" height="1239" />
                     <div class="px-5  pt-2 sm:pb-3 sm:pt-4">
                         <div class="flex justify-between">
-                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungsn Hidup</h6>
+                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungan Hidup</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
                         <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Musim hujan
@@ -68,7 +68,7 @@
                                     <path fill-rule="evenodd"
                                         d="M4.998 7.78C6.729 6.345 9.198 5 12 5c2.802 0 5.27 1.345 7.002 2.78a12.713 12.713 0 0 1 2.096 2.183c.253.344.465.682.618.997.14.286.284.658.284 1.04s-.145.754-.284 1.04a6.6 6.6 0 0 1-.618.997 12.712 12.712 0 0 1-2.096 2.183C17.271 17.655 14.802 19 12 19c-2.802 0-5.27-1.345-7.002-2.78a12.712 12.712 0 0 1-2.096-2.183 6.6 6.6 0 0 1-.618-.997C2.144 12.754 2 12.382 2 12s.145-.754.284-1.04c.153-.315.365-.653.618-.997A12.714 12.714 0 0 1 4.998 7.78ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
                                         clip-rule="evenodd" />
-                                </svg> 200000
+                                </svg> 2000
                             </a>
                         </div>
 
@@ -76,11 +76,11 @@
                 </div>
                 <div
                     class="group bg-white dark:bg-gray-900 overflow-hidden border rounded-lg  p-0 shadow-sm shadow-gray-950/5 hover:shadow-lg hover:-translate-y-2 transition-all duration-200">
-                    <img class="h-70 w-full rounded-t-lg object-cover object-top  transition-all duration-500 hover:grayscale-0  "
-                        src="artikel/arti1.jpeg" alt="team member" width="826" height="1239" />
+                    <img class="h-80 w-full rounded-t-lg   transition-all duration-500 hover:grayscale-0  "
+                        src="infografik.jpeg" alt="team member" width="126" height="1239" />
                     <div class="px-5  pt-2 sm:pb-3 sm:pt-4">
                         <div class="flex justify-between">
-                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungsn Hidup</h6>
+                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Pendidikan</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
                         <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Musim hujan
@@ -93,7 +93,7 @@
                                     <path fill-rule="evenodd"
                                         d="M4.998 7.78C6.729 6.345 9.198 5 12 5c2.802 0 5.27 1.345 7.002 2.78a12.713 12.713 0 0 1 2.096 2.183c.253.344.465.682.618.997.14.286.284.658.284 1.04s-.145.754-.284 1.04a6.6 6.6 0 0 1-.618.997 12.712 12.712 0 0 1-2.096 2.183C17.271 17.655 14.802 19 12 19c-2.802 0-5.27-1.345-7.002-2.78a12.712 12.712 0 0 1-2.096-2.183 6.6 6.6 0 0 1-.618-.997C2.144 12.754 2 12.382 2 12s.145-.754.284-1.04c.153-.315.365-.653.618-.997A12.714 12.714 0 0 1 4.998 7.78ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
                                         clip-rule="evenodd" />
-                                </svg> 200000
+                                </svg> 1400
                             </a>
                         </div>
 
@@ -101,11 +101,11 @@
                 </div>
                 <div
                     class="group bg-white dark:bg-gray-900 overflow-hidden border rounded-lg  p-0 shadow-sm shadow-gray-950/5 hover:shadow-lg hover:-translate-y-2 transition-all duration-200">
-                    <img class="h-70 w-full rounded-t-lg object-cover object-top  transition-all duration-500 hover:grayscale-0  "
-                        src="artikel/arti1.jpeg" alt="team member" width="826" height="1239" />
+                    <img class="h-80 w-full rounded-t-lg   transition-all duration-500 hover:grayscale-0  "
+                    src="infografik.jpeg" alt="team member" width="126" height="1239" />
                     <div class="px-5  pt-2 sm:pb-3 sm:pt-4">
                         <div class="flex justify-between">
-                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungsn Hidup</h6>
+                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Kesehatan</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
                         <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Musim hujan
@@ -118,7 +118,7 @@
                                     <path fill-rule="evenodd"
                                         d="M4.998 7.78C6.729 6.345 9.198 5 12 5c2.802 0 5.27 1.345 7.002 2.78a12.713 12.713 0 0 1 2.096 2.183c.253.344.465.682.618.997.14.286.284.658.284 1.04s-.145.754-.284 1.04a6.6 6.6 0 0 1-.618.997 12.712 12.712 0 0 1-2.096 2.183C17.271 17.655 14.802 19 12 19c-2.802 0-5.27-1.345-7.002-2.78a12.712 12.712 0 0 1-2.096-2.183 6.6 6.6 0 0 1-.618-.997C2.144 12.754 2 12.382 2 12s.145-.754.284-1.04c.153-.315.365-.653.618-.997A12.714 12.714 0 0 1 4.998 7.78ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
                                         clip-rule="evenodd" />
-                                </svg> 200000
+                                </svg> 460
                             </a>
                         </div>
 
@@ -126,11 +126,11 @@
                 </div>
                 <div
                     class="group bg-white dark:bg-gray-900 overflow-hidden border rounded-lg  p-0 shadow-sm shadow-gray-950/5 hover:shadow-lg hover:-translate-y-2 transition-all duration-200">
-                    <img class="h-70 w-full rounded-t-lg object-cover object-top  transition-all duration-500 hover:grayscale-0  "
-                        src="artikel/arti1.jpeg" alt="team member" width="826" height="1239" />
+                    <img class="h-80 w-full rounded-t-lg   transition-all duration-500 hover:grayscale-0  "
+                        src="infografik.jpeg" alt="team member" width="126" height="1239" />
                     <div class="px-5  pt-2 sm:pb-3 sm:pt-4">
                         <div class="flex justify-between">
-                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungsn Hidup</h6>
+                            <h6 class=" text-base duration-500 badge sz-sm variant-warning">Lingkungan Hidup</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
                         <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Musim hujan
@@ -143,7 +143,7 @@
                                     <path fill-rule="evenodd"
                                         d="M4.998 7.78C6.729 6.345 9.198 5 12 5c2.802 0 5.27 1.345 7.002 2.78a12.713 12.713 0 0 1 2.096 2.183c.253.344.465.682.618.997.14.286.284.658.284 1.04s-.145.754-.284 1.04a6.6 6.6 0 0 1-.618.997 12.712 12.712 0 0 1-2.096 2.183C17.271 17.655 14.802 19 12 19c-2.802 0-5.27-1.345-7.002-2.78a12.712 12.712 0 0 1-2.096-2.183 6.6 6.6 0 0 1-.618-.997C2.144 12.754 2 12.382 2 12s.145-.754.284-1.04c.153-.315.365-.653.618-.997A12.714 12.714 0 0 1 4.998 7.78ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
                                         clip-rule="evenodd" />
-                                </svg> 200000
+                                </svg> 570
                             </a>
                         </div>
 

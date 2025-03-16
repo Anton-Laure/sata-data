@@ -73,7 +73,7 @@
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
                                             <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="kemendagri.png" alt="team member" >
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
@@ -81,7 +81,7 @@
                                             
                                            
                                         </div>
-                                        <div class="flex items-center gap-1 pt-2 pb-6 px-6">
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
                                             </div>
@@ -100,7 +100,7 @@
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
                                             <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="kemendagri.png" alt="team member" >
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
@@ -108,7 +108,7 @@
                                             
                                            
                                         </div>
-                                        <div class="flex items-center gap-1 pt-2 pb-6 px-6">
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
                                             </div>
@@ -127,7 +127,7 @@
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
                                             <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="kemendagri.png" alt="team member" >
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
@@ -135,7 +135,7 @@
                                             
                                            
                                         </div>
-                                        <div class="flex items-center gap-1 pt-2 pb-6 px-6">
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
                                             </div>
@@ -154,7 +154,7 @@
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
                                             <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="kemendagri.png" alt="team member" >
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
@@ -162,7 +162,7 @@
                                             
                                            
                                         </div>
-                                        <div class="flex items-center gap-1 pt-2 pb-6 px-6">
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
                                             </div>
@@ -181,7 +181,7 @@
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
                                             <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="kemendagri.png" alt="team member" >
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
@@ -189,7 +189,7 @@
                                             
                                            
                                         </div>
-                                        <div class="flex items-center gap-1 pt-2 pb-6 px-6">
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
                                             </div>
@@ -208,7 +208,7 @@
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
                                             <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="kemendagri.png" alt="team member" >
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
@@ -216,7 +216,7 @@
                                             
                                            
                                         </div>
-                                        <div class="flex items-center gap-1 pt-2 pb-6 px-6">
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
                                             </div>
@@ -235,7 +235,7 @@
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
                                             <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="kemendagri.png" alt="team member" >
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
@@ -243,7 +243,7 @@
                                             
                                            
                                         </div>
-                                        <div class="flex items-center gap-1 pt-2 pb-6 px-6">
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
                                             </div>
@@ -262,7 +262,7 @@
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
                                             <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="kemendagri.png" alt="team member" >
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
@@ -270,7 +270,7 @@
                                             
                                            
                                         </div>
-                                        <div class="flex items-center gap-1 pt-2 pb-6 px-6">
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
                                             </div>

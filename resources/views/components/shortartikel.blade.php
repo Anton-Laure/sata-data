@@ -1,4 +1,4 @@
-<section class="pt-5 pb-20 bg-gray-50 dark:bg-gray-950/50 backdrop-blur-2xl">
+<section class="pt-5 pb-20  dark:bg-gray-950/50 backdrop-blur-2xl">
     <div class="mx-auto max-w-5xl border-t px-6">
         {{-- <span class="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-gray-950">Team</span> --}}
         <div class="mt-24 gap-4 sm:grid sm:grid-cols-2">
@@ -18,7 +18,7 @@
                             <h6 class=" text-base duration-500 ">Administrator</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3>
+                        <a href="detail-artikel"> <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3></a>
                         <p class="text-justify text-sm pt-3 pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem veritatis ducimus quidem odit optio commodi cum a pariatur voluptatem distinctio aperiam consequuntur ipsa, enim expedita, id nisi accusamus tempore.</p>
                         
                     </div>
@@ -30,7 +30,7 @@
                             <h6 class=" text-base duration-500 ">Administrator</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3>
+                        <a href="detail-artikel"><h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3></a>
                         <p class="text-justify text-sm pt-3 pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem veritatis ducimus quidem odit optio commodi cum a pariatur voluptatem distinctio aperiam consequuntur ipsa, enim expedita, id nisi accusamus tempore.</p>
                         
                     </div>
@@ -42,7 +42,7 @@
                             <h6 class=" text-base duration-500 ">Administrator</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3>
+                        <a href="detail-artikel"><h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3></a>
                         <p class="text-justify text-sm pt-3 pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem veritatis ducimus quidem odit optio commodi cum a pariatur voluptatem distinctio aperiam consequuntur ipsa, enim expedita, id nisi accusamus tempore.</p>
                         
                     </div>
@@ -54,7 +54,7 @@
                             <h6 class=" text-base duration-500 ">Administrator</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3>
+                        <a href="detail-artikel"><h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3></a>
                         <p class="text-justify text-sm pt-3 pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem veritatis ducimus quidem odit optio commodi cum a pariatur voluptatem distinctio aperiam consequuntur ipsa, enim expedita, id nisi accusamus tempore.</p>
                         
                     </div>
@@ -66,7 +66,7 @@
                             <h6 class=" text-base duration-500 ">Administrator</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3>
+                        <a href="detail-artikel"><h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3></a>
                         <p class="text-justify text-sm pt-3 pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem veritatis ducimus quidem odit optio commodi cum a pariatur voluptatem distinctio aperiam consequuntur ipsa, enim expedita, id nisi accusamus tempore.</p>
                         
                     </div>
@@ -78,7 +78,7 @@
                             <h6 class=" text-base duration-500 ">Administrator</h6>
                             <span class="text-xs">05 Maret 2025</span>
                         </div>
-                        <h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3>
+                        <a href="detail-artikel"><h3 class="text-title pt-3 text-base font-medium transition-all duration-500 ">Rapat Teknis Kebijakan Portal  Satu Data</h3></a>
                         <p class="text-justify text-sm pt-3 pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem veritatis ducimus quidem odit optio commodi cum a pariatur voluptatem distinctio aperiam consequuntur ipsa, enim expedita, id nisi accusamus tempore.</p>
                         
                     </div>
