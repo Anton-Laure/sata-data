@@ -7,7 +7,7 @@
             <div class="w-max space-y-6 lg:w-2/3">
                 <div class="flex flex-row items-start gap-2 md:flex-row"><img alt="Bappenas Logo" loading="lazy"
                         width="102" height="32" decoding="async" data-nimg="1" class="mb-4 h-28  md:mb-0"
-                        style="color:transparent" src="nttlogo.png">
+                        style="color:transparent" src="{{ url('/') }}/nttlogo.png">
                     <div class="space-y-4">
                         <p class="w-9/12 ">Jl. Polisi Militer No 2, Kec.
                             Oebobo,<br>Kota Kupang, Nusa Tenggara Timur</p>
@@ -33,12 +33,16 @@
                 </div>
             </div>
             <div class=" flex-row  items-center space-y-4 flex lg:w-1/6 md:w-2/6 w-2/7">
-                <img alt="skala logo" width="132" height="48" decoding="async" data-nimg="1" class="dark:brightness-200"
-                style="color:transparent" src="sdpdn.png">
-                <img alt="skala logo"width="132" height="48" decoding="async" data-nimg="1" class="dark:brightness-200"
-                    style="color:transparent" src="logoskala.png">
-                <img alt="ausralia logo" width="122" height="32" decoding="async" data-nimg="1" class="dark:invert" style="color:transparent"
-                    src="logoaustralia.png">
+
+              
+
+                <img alt="skala logo" width="122" height="32" decoding="async" data-nimg="1"
+                    class="dark:brightness-200" style="color:transparent" src="{{ url('/') }}/sdpdn.png">
+                <img alt="skala logo"width="122" height="32" decoding="async" data-nimg="1"
+                    class="dark:brightness-200" style="color:transparent" src="{{ url('/') }}/logoskala.png">
+                <img alt="ausralia logo" width="122" height="32" decoding="async" data-nimg="1"
+                    class="dark:invert" style="color:transparent" src="{{ url('/') }}/logoaustralia.png">
+
             </div>
         </div>
         <div class="mt-8 flex flex-col items-center justify-between gap-4 md:flex-row">
@@ -83,9 +87,6 @@
         autoplayHoverPause:true,
         nav: true,
         dots: false,
-        // prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-caret-left" aria-hidden="true"></i></button>',
-        // nextArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-caret-right" aria-hidden="true"></i></button>',
-        // navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
         loop: true,
         responsive: {
           0: {
@@ -99,7 +100,6 @@
           }
         }
       });
-    //   $( ".owl-prev").html('<button class="slide-arrow prev-arrow"><i class="fa fa-caret-left" aria-hidden="true"></i></button');
-    // $( ".owl-next").html('<button class="slide-arrow next-arrow"><i class="fa fa-caret-right" aria-hidden="true"></i></button>');
+   
     })
   </script>

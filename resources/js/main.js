@@ -76,11 +76,8 @@ setCustomization(document)
 
   dropdownToggles.forEach((toggle) => {
     toggle.addEventListener("mouseover", () => {
-      // Find the next sibling element which is the dropdown menu
       const dropdownMenu = toggle.nextElementSibling
-      // Toggle the 'hidden' class to show or hide the dropdown menu
       if (dropdownMenu.classList.contains("hidden")) {
-        // Hide any open dropdown menus before showing the new one
         document.querySelectorAll(".dropdown-menu").forEach((menu) => {
           menu.classList.add("hidden")
         })
@@ -91,7 +88,6 @@ setCustomization(document)
     })
   })
 
-  // Clicking outside of an open dropdown menu closes it
   window.addEventListener("mouseover", function (e) {
     if (!e.target.matches(".dropdown-toggle")) {
       document.querySelectorAll(".dropdown-menu").forEach((menu) => {
@@ -101,6 +97,41 @@ setCustomization(document)
       })
     }
   })
+
+  import Swiper from 'swiper/bundle';
+        import {
+            Pagination
+        } from 'swiper/modules';
+        import 'swiper/css/bundle';
+        import 'swiper/css/pagination';
+        import 'swiper/css/effect-cards'
+
+        const swiper = new Swiper('.proofSlides', {
+            slidesPerView: 3,
+            effect: "cube",
+            cubeEffect : {
+                slideShadows: false,
+                shadow: false,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+
+            },
+            loop: true,
+            autoplay : {
+                delay: 3000,
+                duration : 500
+            },
+            grabCursor: true,
+            modules: [Pagination],
+            centeredSlides: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+  },
+        });
 
 
 
