@@ -52,12 +52,12 @@
                     </div>
                 </div>
                 <div
-                    class="w-full group-data-[state=active]:h-fit h-0 lg:w-fit flex-wrap justify-end items-center space-y-8 lg:space-y-0 lg:flex lg:h-fit md:flex-nowrap overflow-visible">
+                    class="w-full group-data-[state=active]:h-fit h-0 lg:w-fit flex-wrap justify-end items-center space-y-0 lg:space-y-0 lg:flex lg:h-fit md:flex-nowrap overflow-visible">
                     <div class="mt-6 dark:text-body md:-ml-4 lg:pr-4 lg:mt-0">
                         <ul class="space-y-6 tracking-wide text-base lg:text-sm lg:flex lg:space-y-0">
                             
                             <li>
-                                <a href="#" class="hover:link md:px-4 block">
+                                <a href="https://satudataalor.id/dataset/" target="-_blank" class="hover:link md:px-4 block">
                                     <span>Dataset</span>
                                 </a>
                             </li>
@@ -154,9 +154,10 @@
                                 <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
                             </svg>
                         </button>
+                        <a href="https://satudataalor.id/user/login">
                         <button class="btn variant-neutral sz-sm">
                             <span>Login</span>
-                        </button>
+                        </button></a>
                     </div>
                 </div>
             </div>

@@ -13,19 +13,18 @@ export default {
     darkMode: 'class',
     safelist: ["isToggled"],
     theme: {
-        
+
         extend: {
             colors: ({ colors }) => ({
-             primary : colors.yellow,
-            danger : colors.red,
-            warning : colors.yellow,
-            success : colors.green,
-            info : colors.blue,
-            gray : colors.stone,
-        }),
+                primary: colors.yellow,
+                danger: colors.red,
+                warning: colors.yellow,
+                success: colors.green,
+                info: colors.blue,
+                gray: colors.stone,
+            }),
         }
-        
+
     },
-    plugins: [
-    ],
+    plugins: [],
 };

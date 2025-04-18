@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UrusanController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -11,9 +12,7 @@ Route::get('/kategori', function () {
 Route::get('/kabkota', function () {
     return view('category');
 });
-Route::get('/urusan', function () {
-    return view('urusan');
-});
+Route::get('/urusan', [UrusanController::class,'index']);
 
 Route::get('/organisasi', function () {
     return view('organisasi');

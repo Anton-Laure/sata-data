@@ -26,7 +26,7 @@
                                                 </div>
                                                 <div>
                                                     <span class="text-xs  text-center rounded-sm bg-gradient-to-br from-orange-300 to-orange-400 px-2 py-0.5   text-white shadow-md font-semibold"> Produk Hukum</span> 
-                                                    <br><span class="font-medium">Peraturan Gubernur NTT No. 64 Tahun 2020</span><br>
+                                                    <br><span class="font-medium">Peraturan Gubernur NTT No. 64 Tahun 2020 tentang Penyelenggaraan Satu Data NTT</span><br>
                                                     <span class="text-xs ">05 Maret 2025</span>
                                                 </div>
                                                 
@@ -36,28 +36,7 @@
                                     </a>
                                 </div>
 
-                                <div style="opacity: 1; filter: blur(0px); transform: none;">
-                                    <a class="block" href="#">
-                                        <div
-                                            class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
-                                            <div class="flex items-center gap-4 p-6">
-                                                <div class="w-[50px] h-auto rounded-lg p-1 text-red-500">
-                                                    <div class=" pe-auto h-12 w-12 rounded-lg card bg-cover bg-"
-                                                        style="background-image: url('ph.svg'); background-position: center;margin:auto;" >
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <span class="text-xs  text-center rounded-sm bg-gradient-to-br from-orange-300 to-orange-400 px-2 py-0.5   text-white shadow-md font-semibold"> Produk Hukum</span> 
-                                                    <br><span class="font-medium">SK Tim Forum Satu Data Indonesia Tingkat Provinsi NTT</span><br>
-                                                    <span class="text-xs ">05 Maret 2025</span>
-                                                </div>
-                                                
-                                               
-                                            </div> 
-                                        </div>
-                                    </a>
-                                </div>
-
+                               
                                 <div style="opacity: 1; filter: blur(0px); transform: none;">
                                     <a class="block" href="#">
                                         <div
@@ -80,27 +59,7 @@
                                     </a>
                                 </div>
 
-                                <div style="opacity: 1; filter: blur(0px); transform: none;">
-                                    <a class="block" href="#">
-                                        <div
-                                            class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
-                                            <div class="flex items-center gap-4 p-6">
-                                                <div class="w-[50px] h-auto rounded-lg p-1 text-red-500">
-                                                    <div class=" pe-auto h-12 w-12 rounded-lg card bg-cover bg-"
-                                                        style="background-image: url('ph.svg'); background-position: center;margin:auto;" >
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <span class="text-xs  text-center rounded-sm bg-gradient-to-br from-orange-300 to-orange-400 px-2 py-0.5   text-white shadow-md font-semibold"> Produk Hukum</span> 
-                                                    <br><span class="font-medium">Peraturan Gubernur NTT No. 64 Tahun 2020</span><br>
-                                                    <span class="text-xs ">05 Maret 2025</span>
-                                                </div>
-                                                
-                                               
-                                            </div> 
-                                        </div>
-                                    </a>
-                                </div>
+                               
                                
                             </div>
                         </div>

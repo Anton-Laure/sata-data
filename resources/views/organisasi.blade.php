@@ -1,7 +1,7 @@
 <x-layout>
     <!-- Your content goes here -->
     
-    <section class="mt-5">
+    <section class="pt-5">
           
         <div class="relative max-w-7xl mx-auto px-6 py-10 lg:py-10">
             <div class="lg:flex lg:items-center lg:gap-12">
@@ -72,18 +72,45 @@
                                     <div
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
-                                            <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
+                                            <img class="h-40 w-full px-9 rounded-md  object-top  transition-all 
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="nttlogo.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
-                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KESEHATAN</span>
+                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KEBUDAYAAN</span>
                                             
                                            
                                         </div>
                                         <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
                                                 33 Dataset
+                                            </div>
+                                            <span class="font-medium">1 Infografis</span>
+                                        </div>
+                                       
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="opacity: 1; filter: blur(0px); transform: none;">
+
+                               
+                                <a class="block" href="/dataset?topik=Ekonomi dan Industri">
+                                   
+                                    <div
+                                        class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
+                                        <div class="p-3 h-40">
+                                            <img class="h-40 w-full px-9 rounded-md  object-top  transition-all 
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="nttlogo.png" alt="team member" >
+                                        </div>
+                                        
+                                        <div class=" gap-4 p-6 text-center"> 
+                                            <span class="font-medium ">DINAS KESEHATAN</span>
+                                            
+                                           
+                                        </div>
+                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
+                                            <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
+                                                23 Dataset
                                             </div>
                                             <span class="font-medium">2 Infografis</span>
                                         </div>
@@ -99,20 +126,20 @@
                                     <div
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
-                                            <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
+                                            <img class="h-40 w-full px-9 rounded-md  object-top  transition-all 
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="nttlogo.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
-                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KESEHATAN</span>
+                                            <span class="font-medium ">DINAS PEKERJAAN UMUM DAN PERUMAHAN RAKYAT</span>
                                             
                                            
                                         </div>
                                         <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
-                                                33 Dataset
+                                                26 Dataset
                                             </div>
-                                            <span class="font-medium">2 Infografis</span>
+                                            <span class="font-medium">4 Infografis</span>
                                         </div>
                                        
                                     </div>
@@ -126,20 +153,20 @@
                                     <div
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
-                                            <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
+                                            <img class="h-40 w-full px-9 rounded-md  object-top  transition-all 
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="nttlogo.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
-                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KESEHATAN</span>
+                                            <span class="font-medium ">DINAS SOSIAL</span>
                                             
                                            
                                         </div>
                                         <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
-                                                33 Dataset
+                                                11 Dataset
                                             </div>
-                                            <span class="font-medium">2 Infografis</span>
+                                            <span class="font-medium">1 Infografis</span>
                                         </div>
                                        
                                     </div>
@@ -153,20 +180,20 @@
                                     <div
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
-                                            <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
+                                            <img class="h-40 w-full px-9 rounded-md  object-top  transition-all 
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="nttlogo.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
-                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KESEHATAN</span>
+                                            <span class="font-medium ">SATUAN POLISI PAMONG PRAJA</span>
                                             
                                            
                                         </div>
                                         <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
-                                                33 Dataset
+                                                20 Dataset
                                             </div>
-                                            <span class="font-medium">2 Infografis</span>
+                                            <span class="font-medium">3 Infografis</span>
                                         </div>
                                        
                                     </div>
@@ -180,20 +207,20 @@
                                     <div
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
-                                            <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
+                                            <img class="h-40 w-full px-9 rounded-md  object-top  transition-all 
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="nttlogo.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
-                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KESEHATAN</span>
+                                            <span class="font-medium ">BADAN PENANGGULANGAN BENCANA DAERAH</span>
                                             
                                            
                                         </div>
                                         <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
-                                                33 Dataset
+                                                13 Dataset
                                             </div>
-                                            <span class="font-medium">2 Infografis</span>
+                                            <span class="font-medium">5 Infografis</span>
                                         </div>
                                        
                                     </div>
@@ -207,20 +234,20 @@
                                     <div
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
-                                            <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
+                                            <img class="h-40 w-full px-9 rounded-md  object-top  transition-all 
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="nttlogo.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
-                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KESEHATAN</span>
+                                            <span class="font-medium ">DINAS PERLINGDUNGAN PEREMPUAN DAN ANAK</span>
                                             
                                            
                                         </div>
                                         <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
-                                                33 Dataset
+                                                22 Dataset
                                             </div>
-                                            <span class="font-medium">2 Infografis</span>
+                                            <span class="font-medium">1 Infografis</span>
                                         </div>
                                        
                                     </div>
@@ -234,45 +261,18 @@
                                     <div
                                         class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
                                         <div class="p-3 h-40">
-                                            <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
+                                            <img class="h-40 w-full px-9 rounded-md  object-top  transition-all 
+                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="nttlogo.png" alt="team member" >
                                         </div>
                                         
                                         <div class=" gap-4 p-6 text-center"> 
-                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KESEHATAN</span>
+                                            <span class="font-medium ">DINAS KOMUNIKASI DAN INFORMATIKA</span>
                                             
                                            
                                         </div>
                                         <div class="flex items-center gap-4 pt-2 pb-6 px-6">
                                             <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
-                                                33 Dataset
-                                            </div>
-                                            <span class="font-medium">2 Infografis</span>
-                                        </div>
-                                       
-                                    </div>
-                                </a>
-                            </div>
-                            <div style="opacity: 1; filter: blur(0px); transform: none;">
-
-                               
-                                <a class="block" href="/dataset?topik=Ekonomi dan Industri">
-                                   
-                                    <div
-                                        class="rounded-xl border bg-card  text-card-foreground shadow transition-all hover:shadow-lg">
-                                        <div class="p-3 h-40">
-                                            <img class="h-40 w-full rounded-md  object-top  transition-all 
-                                            duration-500 hover:grayscale-0 group-hover:h-[15rem] group-hover:rounded-xl" src="logoaustralia.png" alt="team member" >
-                                        </div>
-                                        
-                                        <div class=" gap-4 p-6 text-center"> 
-                                            <span class="font-medium ">DINAS PENDIDIKAN DAN KESEHATAN</span>
-                                            
-                                           
-                                        </div>
-                                        <div class="flex items-center gap-4 pt-2 pb-6 px-6">
-                                            <div class="w-[100px] h-auto rounded-lg p-1 text-red-500">
-                                                33 Dataset
+                                                12 Dataset
                                             </div>
                                             <span class="font-medium">2 Infografis</span>
                                         </div>
