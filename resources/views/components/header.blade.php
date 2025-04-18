@@ -55,6 +55,7 @@
                     class="w-full group-data-[state=active]:h-fit h-0 lg:w-fit flex-wrap justify-end items-center space-y-8 lg:space-y-0 lg:flex lg:h-fit md:flex-nowrap overflow-visible">
                     <div class="mt-6 dark:text-body md:-ml-4 lg:pr-4 lg:mt-0">
                         <ul class="space-y-6 tracking-wide text-base lg:text-sm lg:flex lg:space-y-0">
+                            
                             <li>
                                 <a href="#" class="hover:link md:px-4 block">
                                     <span>Dataset</span>
@@ -78,6 +79,7 @@
                                     <span>Kategori</span>
                                 </a>
                             </li>
+
                             <li>
                                 <div class="relative z-40">
                                     <a class="dropdown-toggle hover:link md:px-4 flex items-center">
@@ -91,9 +93,9 @@
                                     </a>
                                     <div
                                         class="dropdown-menu absolute hidden shadow-md bg-gray-50/85 dark:bg-gray-950/85 text-body rounded-b-lg pb-2 w-48">
-                                        <a href="#" class="block px-6 py-2 hover:link">Profil Daerah</a>
-                                        <a href="#" class="block px-6 py-2 hover:link">Berita</a>
-                                        <a href="#" class="block px-6 py-2 hover:link">Pengumuman</a>
+                                        <a href="/profil" class="block px-6 py-2 hover:link">Profil Daerah</a>
+                                        <a href="/berita" class="block px-6 py-2 hover:link">Artikel</a>
+                                        
                                         
 
                                     </div>
@@ -112,14 +114,15 @@
                                     </a>
                                     <div
                                         class="dropdown-menu absolute hidden shadow-md bg-gray-50/85 dark:bg-gray-950/85 text-body rounded-b-lg pb-2 w-48">
-                                        <a href="#" class="block px-6 py-2 hover:link">Daftar Data</a>
-                                        <a href="#" class="block px-6 py-2 hover:link">Metadata</a>
-                                        <a href="#" class="block px-6 py-2 hover:link">Produk Hukum</a>
-                                        <a href="#" class="block px-6 py-2 hover:link">SK Tim</a>
+                                        <a href="/daftar-data" class="block px-6 py-2 hover:link">Daftar Data</a>
+                                        <a href="/metadata" class="block px-6 py-2 hover:link">Metadata</a>
+                                        <a href="/produk-hukum" class="block px-6 py-2 hover:link">Produk Hukum</a>
+                                        <a href="/sk-tim" class="block px-6 py-2 hover:link">SK Tim</a>
 
                                     </div>
                                 </div>
                             </li>
+                           
 
                         </ul>
                     </div>

@@ -22,7 +22,25 @@ Route::get('/organisasi', function () {
 Route::get('/infografik', function () {
     return view('infografik');
 });
+Route::get('/berita', function () {
+    return view('artikel');
+});
 
+Route::get('/profil', function () {
+    return view('profildaerah');
+});
+Route::get('/produk-hukum', function () {
+    return view('produkhukum');
+});
+Route::get('/sk-tim', function () {
+    return view('sktim');
+});
+Route::get('/metadata', function () {
+    return view('metadata');
+});
+Route::get('/daftar-data', function () {
+    return view('daftardata');
+});
 
 Route::get('/detail-artikel', function () {
     return view('detailberita');

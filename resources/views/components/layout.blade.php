@@ -5,10 +5,10 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sasando - NTT open data</title>
+    <title>Sasando - Open Data Nusa Tenggara Timur</title>
     <meta name="description" content="Modern landing page built with tailus themer" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" media="(prefers-color-scheme: light)" />
-    <link rel="icon" type="image/svg+xml" href="darkfavicon.svg" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/svg+xml" href="icon.png" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/svg+xml" href="icon.png" media="(prefers-color-scheme: dark)" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <link href="{{ asset('owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
