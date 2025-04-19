@@ -20,8 +20,8 @@ class Urusan extends Model
     }
     public static function getNamaByid($id)
     {
-        $urusan = new Client();
-        $url = "https://satudataalor.id/api/3/action/group_show?id=$id";
+       $urusan = new Client();
+       $url = "https://satudataalor.id/api/3/action/group_show?id=$id";
         $response = $urusan->request('GET', $url);
        $content =  $response->getBody();
        $contentArray = json_decode($content, true);
