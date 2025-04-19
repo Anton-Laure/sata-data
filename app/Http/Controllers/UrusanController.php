@@ -21,6 +21,7 @@ class UrusanController extends Controller
       
        $data = Urusan::getAll();
        $tes = $this->paginate($data);
+       $tes->withPath('/urusan');
        $client = new Client();
        
     //    dd($nama);   
@@ -29,6 +30,7 @@ class UrusanController extends Controller
     public function paginate($items, $perPage = 8, $page = null, $options = [])
     {
         $page = $page ?: (Paginator::resolveCurrentPage() ?: 1);
+        
         $items = $items instanceof Collection ? $items : Collection::make($items);
         return new LengthAwarePaginator($items->forPage($page, $perPage), $items->count(), $perPage, $page, $options);
     }

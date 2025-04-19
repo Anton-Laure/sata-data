@@ -9,6 +9,9 @@ Route::get('/', function () {
 Route::get('/kategori', function () {
     return view('kabkota');
 });
+Route::get('/adminsa', function () {
+    return view('adminsa.dashboard');
+});
 Route::get('/kabkota', function () {
     return view('category');
 });
@@ -49,4 +52,5 @@ Route::get('/infografik/{slug}', function ($slug) {
     return view('detailinfografik', ['slug' => $slug]);
 
 });
+
 // Route::get('/auth',[LoginController::class,'index'])->name('auth');

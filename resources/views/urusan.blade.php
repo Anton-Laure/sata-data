@@ -1,4 +1,4 @@
-<x-layout>
+<x-admin>
     <!-- Your content goes here -->
     
     <section class="pt-5">
@@ -204,4 +204,4 @@
         </div>
     </section>
 
-</x-layout>
+</x-admin>
